@@ -3,6 +3,7 @@ package ch05reference;
 public class C11method {
 	public static void main(String[] args) {
 		int[] a = method1();
+
 		System.out.println("main 메소드");
 		System.out.println(System.identityHashCode(a));
 	}

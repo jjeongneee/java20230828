@@ -9,7 +9,7 @@ public class C15cast {
         Dog15 d1 = (Dog15) ani1; // 된다.
         Cat15 c1 = (Cat15) ani2; // 된다.
 
-//        Cat15 c2 = (Cat15) ani1; // 안된다. , 문법오류는 아님
+//        Cat15 c2 = (Cat15) ani1; // 안된다. , 문법오류는 아님(Cat은 ani2에 속해있어서)
 //        Dog15 d2 = (Dog15) ani2; // 안된다.
 
         Animal15 ani3 = new Animal15();

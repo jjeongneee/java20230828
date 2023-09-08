@@ -27,15 +27,17 @@ public class C02list {
         list.add("react");
         list.add("css");
 
-        System.out.println(list.size());
+        System.out.println(list.size()); // 6
 
         // 지우기
         list.remove("react");
-        System.out.println(list.size());
+        System.out.println(list.size()); // 5
         list.remove("java");
-        System.out.println(list.size());
+        System.out.println(list.size()); // 4
 
-        System.out.println(list.get(0));
+        // spring, css, react, css 순으로 있음
+
+        System.out.println(list.get(0)); // java가 처음부터 삭제되어서
         System.out.println(list.get(3));
 
         // 있는 지 확인

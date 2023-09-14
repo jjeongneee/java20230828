@@ -10,6 +10,12 @@ public class Example {
                 new Member("신용권", 40),
                 new Member("감자바", 26)
         );
+        // 나이 평균 구하기
+        double avg = list.stream()
+                        .mapToInt(Member::getAge)
+                                .average()
+                                        .getAsDouble();
+        System.out.println("avg = " + avg);
 
         System.out.println("나이들의 출력");
         list.stream()
